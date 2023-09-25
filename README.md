@@ -5,7 +5,7 @@ Look at the left top corner and you'll see main branch.
 Click in it and choose master branch.
 All the codes I push is in master branch. Thanks
 ## About App
-- This is one of my android app project. I'am practicing calling Api in jetpack compose.
+- This is one of my android app project. I'm practicing calling Api in jetpack compose.
 - I used the UDF( undirectional data flow) design pattern to design the app.
 - I created UI layer for exposing  data on the screen and Data layer for managing the data.
 - To calling or fetching Api you need these features below:
@@ -27,6 +27,7 @@ All the codes I push is in master branch. Thanks
 - In consclusion: to all api you to set up a UI layer and a Data layer:
   +  The UI layer contains ViewModel and UiState (Composable function). The ViewModel is in charge of exposing the screen UI state, and handling the business logic in the UI layer and calling the business logic from other layers of the hierarchy.
   +  The Data layer is responsile for retrieving the data from the api. The data layer includes: data class, repository for managing the data and data source class to retrieve the data from the network.
+  +  You should use Dependency Injection (DI) to keep your app flexible, robust, and ready to scale.
 
 
 
