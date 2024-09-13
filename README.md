@@ -18,8 +18,7 @@
    ![mad-arch-ui-udf-in-action](https://github.com/Gianguyen1234/CallingApi/assets/112406680/ea6d7f1c-6593-4a48-be36-538bbdc333af)
 * Data layer:
    ![f13e3d6207f3ecf1_1440](https://github.com/Gianguyen1234/CallingApi/assets/112406680/4cfe3028-3e5c-4a22-8d9c-98969e4295b6)
-
-- Demo app: https://youtube.com/shorts/NE7sC3vIPtc
+  
 - In consclusion: to all api you to set up a UI layer and a Data layer:
   +  The UI layer contains ViewModel and UiState (Composable function). The ViewModel is in charge of exposing the screen UI state, and handling the business logic in the UI layer and calling the business logic from other layers of the hierarchy.
   +  The Data layer is responsile for retrieving the data from the api. The data layer includes: data class, repository for managing the data and data source class to retrieve the data from the network.
