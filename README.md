@@ -1,4 +1,4 @@
-# Amphibians
+# Amphibians ![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 ****
 ## About App
 - This is one of my android app project. I'm practicing calling Api in jetpack compose.
